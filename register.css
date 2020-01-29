@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.box
+{
+		width: 300px;
+		padding: 50px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 13px;
+		border: #1FA907 4px solid;
+		box-shadow: 0px 6px 45px -11px;
+		text-align: center;
+}
+.logo
+{
+        margin: 0px;
+}
+p
+{
+        margin: 0px;
+}
+.title1
+{
+        margin: 0px;
+}
+.box input[type="text"],.box input[type="password"]
+{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 12px auto;
+		text-align: center;
+		border: 2px solid #1FA907;
+		padding: 14px 10px;
+		width: 230px;
+		outline: white;
+		border-radius: 10px;
+		transition: 0.15s;
+}
+.box input[type="button"]
+{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 0px auto;
+		text-align: center;
+		border: 2px solid #1FA907;
+		padding: 14px 10px;
+		width: 250px;
+		outline: white;
+		border-radius: 30px;
+		transition: 0.15s;
+}
+.box input[type="button"]:hover
+{
+        background-color: #fff;
+}
+
+.a
+{
+        border: 0;
+		background: none;
+		display: block;
+		margin: 0px auto;
+		text-align: center;
+		border: 2px solid #1FA907;
+		padding: 14px 10px;
+		width: 250px;
+		outline: white;
+		border-radius: 30px;
+		transition: 0.15s;
+}

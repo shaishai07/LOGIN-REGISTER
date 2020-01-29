@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: url('background.jpg');
+    background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box
+{
+		width: 340px;
+		padding: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 13px;
+		border: #1FA907 4px solid;
+		box-shadow: 0px 6px 45px -11px;
+		text-align: center;
+}
+.box logo
+{
+        margin: 30px;}
